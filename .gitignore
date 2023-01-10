@@ -1,0 +1,192 @@
+#BACKEND
+/docker-compose/blog-app-backend/target/
+/docker-compose/blog-app-backend/!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+/docker-compose/blog-app-backend/.apt_generated
+/docker-compose/blog-app-backend/.classpath
+/docker-compose/blog-app-backend/.factorypath
+/docker-compose/blog-app-backend/.project
+/docker-compose/blog-app-backend/.settings
+/docker-compose/blog-app-backend/.springBeans
+/docker-compose/blog-app-backend/.sts4-cache
+
+
+# Created by https://www.gitignore.io/api/git,java,maven,eclipse,windows
+
+### Eclipse ###
+
+.metadata
+/docker-compose/blog-app-backend/bin/
+/docker-compose/blog-app-backend/tmp/
+/docker-compose/blog-app-backend/*.tmp
+/docker-compose/blog-app-backend/*.bak
+/docker-compose/blog-app-backend/*.swp
+/docker-compose/blog-app-backend/*~.nib
+/docker-compose/blog-app-backend/local.properties
+/docker-compose/blog-app-backend/.settings/
+/docker-compose/blog-app-backend/.loadpath
+/docker-compose/blog-app-backend/.recommenders
+
+# External tool builders
+/docker-compose/blog-app-backend/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+/docker-compose/blog-app-backend/*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+/docker-compose/blog-app-backend/*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+/docker-compose/blog-app-backend/.cproject
+
+# CDT- autotools
+/docker-compose/blog-app-backend/.autotools
+
+# Java annotation processor (APT)
+/docker-compose/blog-app-backend/.factorypath
+
+# PDT-specific (PHP Development Tools)
+/docker-compose/blog-app-backend/.buildpath
+
+# sbteclipse plugin
+/docker-compose/blog-app-backend/.target
+
+# Tern plugin
+/docker-compose/blog-app-backend/.tern-project
+
+# TeXlipse plugin
+/docker-compose/blog-app-backend/.texlipse
+
+# STS (Spring Tool Suite)
+/docker-compose/blog-app-backend/.springBeans
+
+# Code Recommenders
+/docker-compose/blog-app-backend/.recommenders/
+
+# Annotation Processing
+/docker-compose/blog-app-backend/.apt_generated/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+/docker-compose/blog-app-backend/.cache-main
+/docker-compose/blog-app-backend/.scala_dependencies
+/docker-compose/blog-app-backend/.worksheet
+
+### Eclipse Patch ###
+# Eclipse Core
+/docker-compose/blog-app-backend/.project
+
+# JDT-specific (Eclipse Java Development Tools)
+/docker-compose/blog-app-backend/.classpath
+
+# Annotation Processing
+/docker-compose/blog-app-backend/.apt_generated
+
+/docker-compose/blog-app-backend/.sts4-cache/
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+/docker-compose/blog-app-backend/*.orig
+
+# Created by git when using merge tools for conflicts
+/docker-compose/blog-app-backend/*.BACKUP.*
+/docker-compose/blog-app-backend/*.BASE.*
+/docker-compose/blog-app-backend/*.LOCAL.*
+/docker-compose/blog-app-backend/*.REMOTE.*
+/docker-compose/blog-app-backend/*_BACKUP_*.txt
+/docker-compose/blog-app-backend/*_BASE_*.txt
+/docker-compose/blog-app-backend/*_LOCAL_*.txt
+/docker-compose/blog-app-backend/*_REMOTE_*.txt
+
+### Java ###
+# Compiled class file
+/docker-compose/blog-app-backend/*.class
+
+# Log file
+/docker-compose/blog-app-backend/*.log
+
+# BlueJ files
+/docker-compose/blog-app-backend/*.ctxt
+
+# Mobile Tools for Java (J2ME)
+/docker-compose/blog-app-backend/.mtj.tmp/
+
+# Package Files #
+/docker-compose/blog-app-backend/*.jar
+/docker-compose/blog-app-backend/*.war
+/docker-compose/blog-app-backend/*.nar
+/docker-compose/blog-app-backend/*.ear
+/docker-compose/blog-app-backend/*.zip
+/docker-compose/blog-app-backend/*.tar.gz
+/docker-compose/blog-app-backend/*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Maven ###
+/docker-compose/blog-app-backend/target/
+/docker-compose/blog-app-backend/pom.xml.tag
+/docker-compose/blog-app-backend/pom.xml.releaseBackup
+/docker-compose/blog-app-backend/pom.xml.versionsBackup
+/docker-compose/blog-app-backend/pom.xml.next
+/docker-compose/blog-app-backend/release.properties
+/docker-compose/blog-app-backend/dependency-reduced-pom.xml
+/docker-compose/blog-app-backend/buildNumber.properties
+/docker-compose/blog-app-backend/.mvn/timing.properties
+/docker-compose/blog-app-backend/.mvn/wrapper/maven-wrapper.jar
+
+### Windows ###
+# Windows thumbnail cache files
+/docker-compose/blog-app-backend/Thumbs.db
+/docker-compose/blog-app-backend/ehthumbs.db
+/docker-compose/blog-app-backend/ehthumbs_vista.db
+
+# Dump file
+/docker-compose/blog-app-backend/*.stackdump
+
+# Folder config file
+/docker-compose/blog-app-backend/[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+/docker-compose/blog-app-backend/$RECYCLE.BIN/
+
+# Windows Installer files
+/docker-compose/blog-app-backend/*.cab
+/docker-compose/blog-app-backend/*.msi
+/docker-compose/blog-app-backend/*.msix
+/docker-compose/blog-app-backend/*.msm
+/docker-compose/blog-app-backend/*.msp
+
+# Windows shortcuts
+/docker-compose/blog-app-backend/*.lnk
+
+
+#FRONTEND
+# dependencies
+docker-compose/blog-app-frontend/node_modules
+docker-compose/blog-app-frontend/.pnp
+docker-compose/blog-app-frontend/.pnp.js
+
+# testing
+docker-compose/blog-app-frontend/coverage
+
+# production
+docker-compose/blog-app-frontend/build
+
+# misc
+docker-compose/blog-app-frontend/.DS_Store
+docker-compose/blog-app-frontend/.env.local
+docker-compose/blog-app-frontend/.env.development.local
+docker-compose/blog-app-frontend/.env.test.local
+docker-compose/blog-app-frontend/.env.production.local
+
+docker-compose/blog-app-frontend/npm-debug.log*
+docker-compose/blog-app-frontend/yarn-debug.log*
+docker-compose/blog-app-frontend/yarn-error.log*
+
+
+#dockerfile/nodejs-api
+dockerfile/nodejs-api/package-lock.json
+dockerfile/nodejs-api/node_modules
+dockerfile/nodejs-api/uploads/*
