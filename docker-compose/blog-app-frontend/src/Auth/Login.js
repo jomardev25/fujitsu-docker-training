@@ -26,8 +26,8 @@ const Login = () => {
                                 headers: { 'Content-Type': 'application/json' },
                             });
             const jsonData = await response.json();
-            localStorage.setItem("token", jsonData.accessToken);
-            if(jsonData.accessToken)
+            localStorage.setItem("token", jsonData.access_token);
+            if(jsonData.access_token)
                 window.location.href="/admin/users";
             else
                 alert(jsonData.message);

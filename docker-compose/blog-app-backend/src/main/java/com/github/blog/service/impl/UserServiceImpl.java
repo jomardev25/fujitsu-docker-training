@@ -19,6 +19,9 @@ import com.github.blog.repository.RoleRepository;
 import com.github.blog.repository.UserRepository;
 import com.github.blog.service.UserService;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -78,12 +81,16 @@ public class UserServiceImpl implements UserService {
 	}
 
 	private User mapToEntity(UserDto userDto) {
+
+		log.info(userDto.toString());
+
 		User user = new User();
 		user.setUsername(userDto.getUsername());
 		user.setPassword(passwordEncoder.encode(userDto.getPassword()));
 
 		user.setFirstName(userDto.getFirstName());
-		user.setLastName(userDto.getLastName()); user.setEmail(userDto.getEmail());
+		user.setLastName(userDto.getLastName());
+		user.setEmail(userDto.getEmail());
 
 		Set<Role> roles =  userDto.getRoles().stream().map(roleName -> {
 			return roleRepository.findByName(roleName);

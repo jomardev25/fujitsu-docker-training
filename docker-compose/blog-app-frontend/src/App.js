@@ -24,13 +24,11 @@ function App() {
     window.location.href = "/";
   };
 
-
   return (
     <div className="App">
       <Router>
         <div>
           <nav className="nav">
-            
             {
               localStorage.getItem("token") ?
               <ul className="navigation">

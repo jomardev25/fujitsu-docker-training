@@ -42,8 +42,8 @@ const User = () => {
                             <tr key={data.id}>
                                 <td>{data.username}</td>
                                 <td>{data.email}</td>
-                                <td>{data.firstName}</td>
-                                <td>{data.lastName}</td>
+                                <td>{data.first_name}</td>
+                                <td>{data.last_name}</td>
                             </tr>
                         )}
                 </tbody>

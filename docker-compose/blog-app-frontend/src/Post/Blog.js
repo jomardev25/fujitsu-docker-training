@@ -5,7 +5,7 @@ const Blog = ({post}) => {
 
     return (
         <div className="blog-container">
-            <h2><Link to={`/posts/${post.id}`}>{ post.title }</Link></h2>
+            <h2><Link to={`/blogs/${post.id}`}>{ post.title }</Link></h2>
             <h3>{ post.description }</h3>
             <div className="blog-content">
                 <p>

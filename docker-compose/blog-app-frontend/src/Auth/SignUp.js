@@ -57,7 +57,7 @@ const SignUp = () => {
                     <input type="text" placeholder="Enter Last Name" name="last_name" id="last_name" onChange={handleChange}/>
 
                     <label htmlFor="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" id="email" onChange={handleChange}/>
+                    <input type="email" placeholder="Enter Email" name="email" id="email" onChange={handleChange}/>
 
                     <label htmlFor="username"><b>Username</b></label>
                     <input type="text" placeholder="Enter Username" name="username" onChange={handleChange}/>
