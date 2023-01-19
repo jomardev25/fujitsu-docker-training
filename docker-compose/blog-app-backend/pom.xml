@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.blog</groupId>
-	<artifactId>springboot-blog-application</artifactId>
+	<artifactId>blog-app-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>springboot-blog-application</name>
